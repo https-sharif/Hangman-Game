@@ -1,16 +1,16 @@
 import random
-from ache import jsona
+from ache import words_diary
 import string
 print(f'\nWelcome to the game of Hangman. Here you get 10 lives and you have to guess the secret word before you are HANGED!!!')
 def get_valid_word(words):
-    word = random.choice(jsona)
+    word = random.choice(words_diary)
     while '-' in word or ' ' in word:
-        word = random.choice(jsona)
+        word = random.choice(words_diary)
 
     return word.upper()
 
 def hangman():
-    word = get_valid_word(jsona)
+    word = get_valid_word(words_diary)
     word_letter = set(word)
     alphabet = set(string.ascii_uppercase)
     used_letter = set()
