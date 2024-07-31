@@ -1,5 +1,5 @@
 import random
-from ache import words_diary
+from word_file import words_diary
 import string
 print(f'\nWelcome to the game of Hangman. Here you get 10 lives and you have to guess the secret word before you are HANGED!!!')
 def get_valid_word(words):
