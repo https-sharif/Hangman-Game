@@ -18,11 +18,11 @@ Hangman is a word-guessing game where the player tries to guess a secret word by
 ## Installation for your terminal
 
 1. Clone the repository:
-```git clone https://github.com/sharif-islam96403/Hangman-Game.git```
+```git clone https://github.com/https-sharif/Hangman-Game.git```
 
 2. Navigate to the project directory:
 ```cd Hangman-Game```
-3. Ensure you have Python installed on your machine. This game was developed using Python 3.10.
+3. Ensure you have Python installed on your device. This game was developed using Python 3.10.
    ```open Hangman.py```
 
 Enjoy the game! Feel free to contribute or provide feedback.
